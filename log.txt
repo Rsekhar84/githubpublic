@@ -1,0 +1,293 @@
+
+91988@RAJASEKHAR MINGW64 /e/gitlab
+$ git init
+Initialized empty Git repository in E:/gitlab/.git/
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git config --global user.name "rsekhar84"
+warning: user.name has multiple values
+error: cannot overwrite multiple values with a single value
+       Use a regexp, --add or --replace-all to change user.name.
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git config --global user.emai "rajaps369@gmail.com
+> ^C
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ ^C
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git config --global user.emai "rajaps369@gmail.com"
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git remote add origin https://github.com/Rsekhar84/githubpublic.git
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git config --global user.name "Rsekhar84"
+warning: user.name has multiple values
+error: cannot overwrite multiple values with a single value
+       Use a regexp, --add or --replace-all to change user.name.
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/Rsekhar84/githubpublic.git'
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ ^C
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git add --all
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/Rsekhar84/githubpublic.git'
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git add .
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/Rsekhar84/githubpublic.git'
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git commit -m "first-Commit"
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ ls
+'Intot Free Website Template - Free-CSS.com.zip'   intot/
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ ls
+intot/
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git add .
+warning: LF will be replaced by CRLF in intot/css/bootstrap.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in intot/js/bootstrap.js.
+The file will have its original line endings in your working directory
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   intot/contact.html
+        new file:   intot/css/bootstrap.css
+        new file:   intot/css/responsive.css
+        new file:   intot/css/style.css
+        new file:   intot/images/card-img-1.png
+        new file:   intot/images/card-img-2.png
+        new file:   intot/images/card-img-3.png
+        new file:   intot/images/facebook-logo-button.png
+        new file:   intot/images/fb.png
+        new file:   intot/images/form-img.png
+        new file:   intot/images/instagram.png
+        new file:   intot/images/instagram1.png
+        new file:   intot/images/left-black-arrow.png
+        new file:   intot/images/linkedin.png
+        new file:   intot/images/linkedin1.png
+        new file:   intot/images/login.png
+        new file:   intot/images/map.png
+        new file:   intot/images/menu.png
+        new file:   intot/images/next.png
+        new file:   intot/images/portfolio-img-1.png
+        new file:   intot/images/portfolio-img-2.jpg
+        new file:   intot/images/portfolio-img-3.png
+        new file:   intot/images/portfolio-img-4.png
+        new file:   intot/images/prev.png
+        new file:   intot/images/right-black-arrow.png
+        new file:   intot/images/search-icon.png
+        new file:   intot/images/signup.png
+        new file:   intot/images/slider-img.png
+        new file:   intot/images/team-1.png
+        new file:   intot/images/team-2.png
+        new file:   intot/images/team-3.png
+        new file:   intot/images/team-4.png
+        new file:   intot/images/twitter-logo-button.png
+        new file:   intot/images/twitter.png
+        new file:   intot/index.html
+        new file:   intot/js/bootstrap.js
+        new file:   intot/js/jquery-3.4.1.min.js
+        new file:   intot/portfolio.html
+        new file:   intot/team.html
+
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git commit -m "first commit"
+[master (root-commit) 26231f1] first commit
+ 39 files changed, 16977 insertions(+)
+ create mode 100644 intot/contact.html
+ create mode 100644 intot/css/bootstrap.css
+ create mode 100644 intot/css/responsive.css
+ create mode 100644 intot/css/style.css
+ create mode 100644 intot/images/card-img-1.png
+ create mode 100644 intot/images/card-img-2.png
+ create mode 100644 intot/images/card-img-3.png
+ create mode 100644 intot/images/facebook-logo-button.png
+ create mode 100644 intot/images/fb.png
+ create mode 100644 intot/images/form-img.png
+ create mode 100644 intot/images/instagram.png
+ create mode 100644 intot/images/instagram1.png
+ create mode 100644 intot/images/left-black-arrow.png
+ create mode 100644 intot/images/linkedin.png
+ create mode 100644 intot/images/linkedin1.png
+ create mode 100644 intot/images/login.png
+ create mode 100644 intot/images/map.png
+ create mode 100644 intot/images/menu.png
+ create mode 100644 intot/images/next.png
+ create mode 100644 intot/images/portfolio-img-1.png
+ create mode 100644 intot/images/portfolio-img-2.jpg
+ create mode 100644 intot/images/portfolio-img-3.png
+ create mode 100644 intot/images/portfolio-img-4.png
+ create mode 100644 intot/images/prev.png
+ create mode 100644 intot/images/right-black-arrow.png
+ create mode 100644 intot/images/search-icon.png
+ create mode 100644 intot/images/signup.png
+ create mode 100644 intot/images/slider-img.png
+ create mode 100644 intot/images/team-1.png
+ create mode 100644 intot/images/team-2.png
+ create mode 100644 intot/images/team-3.png
+ create mode 100644 intot/images/team-4.png
+ create mode 100644 intot/images/twitter-logo-button.png
+ create mode 100644 intot/images/twitter.png
+ create mode 100644 intot/index.html
+ create mode 100644 intot/js/bootstrap.js
+ create mode 100644 intot/js/jquery-3.4.1.min.js
+ create mode 100644 intot/portfolio.html
+ create mode 100644 intot/team.html
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git remote add origin https://github.com/Rsekhar84/githubpublic.git
+error: remote origin already exists.
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git push -u origin master
+fatal: Application not found
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/Rsekhar84/githubpublic.git/'
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git push -u origin master
+remote: Permission to Rsekhar84/githubpublic.git denied to Rsekhar84.
+fatal: unable to access 'https://github.com/Rsekhar84/githubpublic.git/': The requested URL returned error: 403
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git push -u origin master
+remote: Permission to Rsekhar84/githubpublic.git denied to Rsekhar84.
+fatal: unable to access 'https://github.com/Rsekhar84/githubpublic.git/': The requested URL returned error: 403
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git push -u origin master
+fatal: User canceled device code authentication
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/Rsekhar84/githubpublic.git/'
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git push -u origin master
+fatal: Application not found
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/Rsekhar84/githubpublic.git/'
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git push -u origin master
+fatal: User canceled device code authentication
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/Rsekhar84/githubpublic.git/'
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git push -u origin master
+remote: Permission to Rsekhar84/githubpublic.git denied to Rsekhar84.
+fatal: unable to access 'https://github.com/Rsekhar84/githubpublic.git/': The requested URL returned error: 403
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ ^C
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git config --global --unset-all credential.helper
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git config --global --unset credential.helper
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git config --global user.name rsekhar84
+warning: user.name has multiple values
+error: cannot overwrite multiple values with a single value
+       Use a regexp, --add or --replace-all to change user.name.
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git config --global user.name rajaps369@gmail.com
+warning: user.name has multiple values
+error: cannot overwrite multiple values with a single value
+       Use a regexp, --add or --replace-all to change user.name.
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git config --global user.name "rajaps369@gmail.com"
+warning: user.name has multiple values
+error: cannot overwrite multiple values with a single value
+       Use a regexp, --add or --replace-all to change user.name.
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git push --set-upstream origin master
+fatal: Application not found
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/Rsekhar84/githubpublic.git/'
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git add .
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git commit -m "first commit"
+On branch master
+nothing to commit, working tree clean
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git remote add origin https://github.com/Rsekhar84/githubpublic.git
+error: remote origin already exists.
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git push -u origin master
+fatal: User canceled device code authentication
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/Rsekhar84/githubpublic.git/'
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$ git push -u origin master
+Enumerating objects: 45, done.
+Counting objects: 100% (45/45), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (44/44), done.
+Writing objects: 100% (45/45), 1.60 MiB | 2.84 MiB/s, done.
+Total 45 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/Rsekhar84/githubpublic.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+91988@RAJASEKHAR MINGW64 /e/gitlab (master)
+$
